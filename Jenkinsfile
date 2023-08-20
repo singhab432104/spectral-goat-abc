@@ -18,7 +18,7 @@ pipeline {
     }
     stage('scan for issues') {
       steps {
-        sh "$HOME/.spectral/spectral scan --fail-on-error  --include-tags base,audit"
+        sh "$HOME/.spectral/spectral scan --fail-on-error  --engines oss"
       }
     }
   }
