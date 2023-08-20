@@ -8,7 +8,7 @@ pipeline {
 
   agent any
   environment {
-    SPECTRAL_DSN = 'https://spu-d646eb36ff0d4aa1a11f6cd514cc1ad4@spectral-eu.checkpoint.com'
+    SPECTRAL_DSN = 'https://spu-8b39d10b9d1d4fa198c76bb048feb633@spectral-eu.checkpoint.com'
   }
   stages {
     stage('install Spectral') {
